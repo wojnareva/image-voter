@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,8 +32,9 @@
 		<article class="formContainer">
 		<form id = "myForm">
 			<h2 class="formHeader">Přidej vlastního soutěžícího</h2>
-			<input type="text" name="name" placeholder="Jméno soutěžícího" minlength="3" maxlength="20">
-			<input type="file" name="photo">
+			<label for="name">
+			<input type="text" name="name" placeholder="Jméno soutěžícího" minlength="3" maxlength="20"></label>
+			<label for="photo"><input name="photo" type="file" placeholder="Fotka soutěžícího"></label>
 			<input type="submit" value="Přidat soutěžícího">
 		</form>
 	</article>
